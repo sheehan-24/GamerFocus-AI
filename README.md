@@ -24,7 +24,7 @@ Quick start (local)
 python -m http.server 8000
 ```
 
-3. Open your browser to: http://localhost:8000 and use the app.
+3. Open your browser to: http://localhost:8000 and use the website.
 
 Usage notes
 - To enable the loud alarm, check **Long Alarm (20s)** and set the `Alarm Volume` slider.
