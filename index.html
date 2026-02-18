@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GamerFocus AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>GamerFocus AI</h1>
+      <p class="subtitle">Sharpen your session. Beat the clock.</p>
+    </header>
+
+    <main class="panel">
+      <div class="inputs">
+        <label class="field">
+          <span class="label-text">Game Name</span>
+          <input id="gameName" type="text" placeholder="Enter game name (optional)">
+        </label>
+
+        <label class="field">
+          <span class="label-text">Time (minutes)</span>
+          <input id="minutes" type="number" min="1" placeholder="25">
+        </label>
+
+        <div class="buttons">
+          <button id="startBtn" class="btn neon">Start Session</button>
+          <button id="pauseBtn" class="btn" disabled>Pause</button>
+          <button id="resetBtn" class="btn" disabled>Reset</button>
+        </div>
+
+        <div class="alarm-controls">
+          <label class="field alarm-field">
+            <input id="longAlarm" type="checkbox">
+            <span class="label-text">Long Alarm (20s)</span>
+          </label>
+
+          <label class="field alarm-field">
+            <span class="label-text">Alarm Volume</span>
+            <input id="alarmVolume" type="range" min="0" max="100" value="80">
+          </label>
+        </div>
+      </div>
+
+      <section class="status">
+        <div class="session-info">
+          <div class="game-label">Session: <span id="sessionGame">—</span></div>
+          <div class="timer" id="timer">00:00</div>
+        </div>
+
+        <div class="progress-wrap" aria-hidden="true">
+          <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <div class="quote-box">
+          <div id="quote" class="quote">Get ready to focus.</div>
+        </div>
+
+        <div id="motivation" class="motivation">Keep your eyes on the goal.</div>
+      </section>
+    </main>
+
+    <footer class="footer">Designed with neon focus ✦ Mobile friendly</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
