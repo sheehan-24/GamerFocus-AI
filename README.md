@@ -7,7 +7,7 @@ Features
 - Start / Pause / Resume / Reset controls
 - Visual progress bar showing remaining time
 - 5 motivational quotes (random per session) and rotating motivational lines
-- Optional 20-second continuous alarm (Long Alarm) with volume slider to remind you to stop playing
+- Optional 20-second continuous alarm (Long Alarm) with volume slider
 - Short fallback beep if long alarm is blocked by the browser
 - Keyboard shortcuts: `S` = Start, `P` = Pause/Resume, `R` = Reset
 
