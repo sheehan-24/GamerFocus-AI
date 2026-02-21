@@ -17,14 +17,7 @@ Files
 - `script.js` — timer logic, audio, quotes, and controls
 
 Quick start (local)
-1. Open a terminal in the project folder.
-2. Start a simple static server (Python):
-
-```powershell
-python -m http.server 8000
-```
-
-3. Open your browser to: http://localhost:8000 and use the website.
+Open your browser to: https://sheehan-24.github.io/GamerFocus-AI/ and use the website.
 
 Usage notes
 - To enable the loud alarm, check **Long Alarm (20s)** and set the `Alarm Volume` slider.
